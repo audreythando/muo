@@ -1,26 +1,73 @@
-import React from 'react'
+import React, {useState} from 'react'
+import {useForm} from 'react-hook-form'
 import './Contact.css'
 
 const Contact = () => {
+    const [name , setName]=useState('');
+    const [email , setEmail]=useState('');
+    const [message , setMessage]=useState('');
+
+   
+  const changeNameHandler = (e)=> {
+    setName(e.target.value);
+
+    e.preventDefault();
+  }
+  const changeEmailHandler = (e)=> {
+    setEmail(e.target.value)
+  }
+  const changeMessageHandler = (e) => {
+    setMessage(e.target.value)
+
+  }
+
+    const {register, formState : {errors}, handleSubmit} =useForm();
+
+    const formSubmit = (data)=> {
+        console.log(JSON.stringify(data));
+    }
+
     return (
         <div className='contact'>
             <div className="container">
                 <div className="form-container">
-                    <form>
+                    <form onSubmit={handleSubmit(formSubmit)}>
                         <h1><span>Contact</span> Us</h1>
                         <div>
                             <label>Name</label>
-                            <input type="text" placeholder='Enter your name'/>
+                            <input type="text" 
+                            placeholder='Name'
+                            value={name}
+                           {...register("name", { required: true })} 
+                            onChange={changeNameHandler}
+                            />
+                              {errors.name && <p> Enter Name</p>}
+                            
                         </div>
                         <div>
                             <label>Email</label>
-                            <input type="email" placeholder='Enter your email'/>
+                            <input type="email" 
+                            placeholder='Email'
+                            value={email}
+                            
+                               {...register("email", { required: true, pattern: /^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/i, })} 
+                            onChange={changeEmailHandler}
+                            />
+                                     {errors.email?.type === "required" &&  <p>Email is required</p>}
                         </div>
                         <div>
                             <label>Message</label>
-                            <textarea rows='10' placeholder='Enter Message'/>
+                            <textarea  rows='10'
+                            type='text'
+                             placeholder='Message'
+                             value={message}
+                            
+                              {...register("message", { required: true })} 
+                              onChange={changeMessageHandler}
+                            />
+                            {errors.message?.type === 'required' && <p>Write Message</p>}
                         </div>
-                        <button>Submit</button>
+                        <button type='submit'>Submit</button>
                     </form>
                 </div>
             </div>

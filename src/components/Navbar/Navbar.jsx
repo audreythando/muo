@@ -14,19 +14,19 @@ const Navbar = () => {
 
                 <ul className={click ? 'nav active' : 'nav'}>
                     <li className="nav-item">
-                        <a href="/">Platform</a>
+                        <a href="/">Home</a>
                     </li>
                     <li className="nav-item">
-                        <a href="/">Developers</a>
-                    </li>
-                    <li className="nav-item">
-                        <a href="/">Community</a>
+                        <a href="/">Services</a>
                     </li>
                     <li className="nav-item">
                         <a href="/">About</a>
                     </li>
                     <li className="nav-item">
-                        <a className='btn' href="/">Use Defi</a>
+                        <a href="/">Contact</a>
+                    </li>
+                    <li className="nav-item">
+                        <a className='btn' href="/">Use Muo</a>
                     </li>
                 </ul>
                 <div onClick={handleClick} className="hamburger">

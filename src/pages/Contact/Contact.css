@@ -26,7 +26,12 @@
 .contact form {
     width: 50%;
     margin: 2rem;
-    margin-top: 0.5rem;
+    margin-top: 3rem;
+}
+
+.contact form p{
+    color: red;
+    font-size: small;
 }
 
 .contact .form-container div {

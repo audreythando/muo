@@ -1,7 +1,5 @@
 import React from 'react';
 import './App.css';
-import Header from './components/Header/Header';
-import Mission from './components/Mission/Mission';
 import Navbar from './components/Navbar/Navbar';
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import Home from './pages/Home/Home'
@@ -13,11 +11,9 @@ import Blog from './pages/Blog/Blog';
 function App() {
   return (
     <>
-    <Navbar/>
-      <Header/>
-      <Mission/>
-      <Navbar/>
+  
       <BrowserRouter>
+      <Navbar/>
       <Routes>
         <Route index element={<Home/>}/>
         <Route path="about" element={<About/>}/>

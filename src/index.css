@@ -80,7 +80,7 @@ button {
 }
 
 button:hover {
-  background-color: var(--color-gray-600);
+  background-color: var(--color-primary);
   border: 1px solid #47dcff;
 }
 

@@ -1,7 +1,8 @@
 import React from 'react'
 import './Mission.css'
-import { SiHiveBlockchain, SiStrapi, SiFsecure } from 'react-icons/si';
-import { VscServerProcess } from 'react-icons/vsc'
+import {BsBullseye} from 'react-icons/bs'
+import {HiLightBulb} from 'react-icons/hi'
+import { GiLaurelsTrophy } from 'react-icons/gi'
 import AboutCard from './MissionCard';
 
 const About = () => {
@@ -12,19 +13,28 @@ const About = () => {
                 <p>Our mission , vision and values are your breakthroughs </p>
                 <div className="card-container">
                     <div className="card">
-                        <AboutCard icon={<SiHiveBlockchain className='icon' />} heading='Reliable, tamper-proof network' text='Use decentralization, trusted nodes, premium data, and cryptographic proofs to connect highly accurate and available data/APIs to any smart contract.' />
+                        <AboutCard icon={<BsBullseye className='icon' />} heading='Mission' 
+                        text='Our mission is to maintain the highest levels of professionalism, integrity,
+                            honesty and fairness in our relationships with our clients, suppliers, 
+                            subcontractors and professional associates.' />
+                    </div>
+                    
+                    <div className="card">
+                        <AboutCard icon={<HiLightBulb className='icon' />} heading='Vision'  
+                        text='MUO investments is an IT company recognized for exceptional
+              services.We place great importance on the digitalization of IT
+              processes and on partnership-based working relationships.' />
                     </div>
                     <div className="card">
-                        <AboutCard icon={<SiStrapi className='icon' />} heading='Seamless connection to any API' text='Build on a flexible framework that can retrieve data from any API, connect with existing systems, and integrate with any current or future blockchain.' />
+                        <AboutCard icon={<GiLaurelsTrophy className='icon' />} heading='Values' 
+                        text='Our mission for high standards and quality and commitments towards
+                         our client satisfaction is directly related to our Values'/>
                     </div>
-                    <div className="card">
-                        <AboutCard icon={<SiFsecure className='icon' />} heading='Proven, ready-made solutions' text='Integrate pre-built, time-tested oracle solutions that already secure tens of billions in smart contract value for market-leading decentralized applications.' />
-                    </div>
-                    <div className="card">
-                        <AboutCard icon={<VscServerProcess className='icon' />} heading='Secure off-chain computation' text='Use a decentralized network of DeFi Keeper nodes to automate contracts, mitigating risk of manual interventions and centralized servers.' />
-                    </div>
+
+                    <a href="/services" className="btn">Services</a>
+                   
                 </div>
-                <a href="/" className="btn">Use Defi</a>
+          
             </div>
         </div>
     )

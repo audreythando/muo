@@ -10,7 +10,7 @@ const Header = () => {
             </video>
             <div className="hero-text">
                 <h1>MUO INVESTMENTS</h1>
-                <h1><span className="blue"> Digitally and  </span>  truly yours</h1>
+                <h2><span className="blue"> Digitally and  </span>  truly yours</h2>
 
                 <div className="btn-group">
                     <button className="btn">Learn more</button>

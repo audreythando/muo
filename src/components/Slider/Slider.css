@@ -1,0 +1,23 @@
+.main{
+    text-align: center;
+    margin-top:130px ;
+    margin-bottom: 80px;
+  }
+  .flex_row{
+    justify-content: center;
+    display: flex;
+    padding-top: 20px;
+  }
+  
+  h2{
+    color: white;
+    margin-top: 1rem;
+  }
+
+  
+.thumbnail{
+  padding-left: 20px;
+}
+.clicked{
+  border: 5px solid black;
+}

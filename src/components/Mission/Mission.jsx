@@ -12,7 +12,7 @@ const About = () => {
                 <h2>Leading Technology Solutions</h2>
                 <p>Our mission , vision and values are your breakthroughs </p>
                 <div className="card-container">
-                    <div className="card">
+                    <div className="card" >
                         <AboutCard icon={<BsBullseye className='icon' />} heading='Mission' 
                         text='Our mission is to maintain the highest levels of professionalism, integrity,
                             honesty and fairness in our relationships with our clients, suppliers, 

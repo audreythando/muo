@@ -1,12 +1,14 @@
 import React from 'react';
 import Carousel from '../../components/Carousel/Carousel';
-import Header from '../../components/Header/Header';
+import Counter from '../../components/Counter/Counter';
+import HeaderTwo from '../../components/HeaderTwo/Header';
 import Mission from '../../components/Mission/Mission'
 
 const Home = () => {
   return (
     <>
-      <Header/>
+      <HeaderTwo/>
+      <Counter/>
       <Mission/>
       <Carousel/>
       

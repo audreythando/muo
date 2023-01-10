@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: 'Poppins' , sans-serif;
+    background: var(--color-primary);
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: var(--color-primary);
+}
+
+.wrapper{
+    margin: 150px auto;
+    width:70%;
+}
+
+
+img{
+    max-width: 350px;
+    float: left;
+    border: 3px solid white;
+    border-radius: 10px;
+}
+
+
+.text-box{
+    color: var(--color-gray-100);
+}
+
+.text-box h2{
+    font-size: 42px;
+}
+
+.text-box p{
+ font-size: 16px;   
+}
+

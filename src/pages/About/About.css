@@ -1,0 +1,17 @@
+.hero {
+    height: 90vh;
+    width: 100%;
+    top: 90px;
+    object-fit: contain;
+    color: #f4eeff;
+}
+
+.hero .hero-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+    padding: 1rem;
+    text-align: center;
+}

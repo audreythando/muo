@@ -1,10 +1,14 @@
 import React from 'react';
-
+import Header from '../../components/Header/Header';
+import ServiceInfo from '../../components/ServiceInfo/Info'
 const Services = () => {
   return (
-    <div>
-      
-    </div>
+    <>
+      <Header title='Services'/>
+<ServiceInfo/>
+
+
+    </>
   );
 }
 

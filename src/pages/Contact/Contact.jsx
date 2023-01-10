@@ -1,5 +1,6 @@
 import React, {useState} from 'react'
 import {useForm} from 'react-hook-form'
+import Header from '../../components/Header/Header';
 import './Contact.css'
 
 const Contact = () => {
@@ -28,7 +29,10 @@ const Contact = () => {
     }
 
     return (
+      <>
+      <Header/>
         <div className='contact'>
+        
             <div className="container">
                 <div className="form-container">
                     <form onSubmit={handleSubmit(formSubmit)}>
@@ -74,6 +78,7 @@ const Contact = () => {
                 </div>
             </div>
         </div>
+        </>
     )
 }
 

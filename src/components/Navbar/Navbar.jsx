@@ -12,12 +12,12 @@ function Navbar() {
 
   return (
     <nav>
-        <div className='container nav__container'>
+        <div className='container nav-container'>
 <Link to='/' className='logo' onClick={()=> setIsNavShowing(false)}>
 
-    <img className='nav__img' src={Logo} alt="Nav Logo" />
+    <img className='nav-img' src={Logo} alt="Nav Logo" />
 </Link>
-<ul className={`nav__links ${isNavShowing ? 'show__nav' : 'hide__nav'}`}>
+<ul className={`nav-links ${isNavShowing ? 'show-nav' : 'hide-nav'}`}>
 {
     links.map(({name,path}, index) => {
         return(
@@ -29,7 +29,7 @@ onClick={() => setIsNavShowing (prev => !prev)}>{name}</NavLink>
     })
 }
 </ul>
-<button className='nav__toggle-btn' onClick={() => setIsNavShowing (prev => !prev)}>
+<button className='nav-toggle-btn' onClick={() => setIsNavShowing (prev => !prev)}>
         {
            isNavShowing ? <MdOutlineClose/> :  <GoThreeBars/>
         }

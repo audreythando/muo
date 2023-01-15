@@ -99,4 +99,12 @@ button:hover {
     font-size: 2.5rem;
   }
 }
+@media screen and (max-width: 495px) {
+  h1 {
+    font-size: 2rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+}
 

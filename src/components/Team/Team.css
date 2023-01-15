@@ -78,8 +78,25 @@ h2{
     column-gap: 1rem;
 }
 
-@media screen {
-    .about{
-        width: 150px auto;
+@media screen and (max-width:940px) {
+    .about .container {
+        grid-template-columns: 1fr;
+    }
+
+    .about .container {
+        width: 100%;
+    }
+
+    .about .container img {
+        padding: 0rem;
+        width: 90vw;
+    }
+
+    .about .container .col-2 {
+        padding: 0;
+    }
+
+    .about button {
+        margin-bottom: 1rem;
     }
 }

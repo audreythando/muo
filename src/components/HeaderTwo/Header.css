@@ -29,9 +29,19 @@
 
 .hero .btn {
     margin: 1rem;
+    align-items: center;
+    justify-content: center;
+
 }
+
 
 .bottom-text h2 {
     font-size: 1.6rem;
     text-align: center;
 }
+
+ .outline {
+    background: transparent;
+    border: 1px solid var(--primary-color-variant);
+    color: var(--color-gray-100);
+  }

@@ -30,13 +30,13 @@ const Contact = () => {
 
     return (
       <>
-      <Header/>
+      <Header title='CONTACT US'/>
         <div className='contact'>
         
             <div className="container">
                 <div className="form-container">
                     <form onSubmit={handleSubmit(formSubmit)}>
-                        <h2><span>Contact</span> Us</h2>
+                        {/* <h2><span>Contact</span> Us</h2> */}
                         <h4>For any queries regarding our services kindly fill in your details:
 </h4>
                         <div>

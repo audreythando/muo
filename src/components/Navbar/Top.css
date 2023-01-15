@@ -1,7 +1,7 @@
 nav{
-    height: 70px ;
+    height: 90px ;
     width: 100%;
-    background: black;
+    background: var(--color-primary);
     display: grid;
     place-items: center;
     position: fixed;
@@ -20,18 +20,12 @@ nav{
     justify-content: space-between;
     align-items: center;
     position: relative;
-    height: 90px;
 
 }
 
-.nav__img{
+.logo{
     width: 7rem;
     display: block;
-    margin-right: 15rem;
-    object-fit: cover;
-    opacity: 0.8;
-    border-radius: 35px;
-    height: 50px;
     
 }
 
@@ -45,7 +39,7 @@ nav{
 }
 
 .nav__links a:hover{
-    color: var(--color-primary);
+    color: var(--color-secondary);
 }
 
 .active-nav{

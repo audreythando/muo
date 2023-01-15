@@ -1,39 +1,37 @@
-import React from 'react';
-import './Counter.css'
-
-const CounterData=[
-    {
-      number: '10+' ,
-      text:'Years of Experience',
-    },
-    {
-      number: '200+'  ,
-      text:'Running Projects',
-    },
-    {
-      number: '10+'  ,
-      text:'Digital Services'
-    }
-]
+import React from "react";
+import "./Counter.css";
+import { BsFillEmojiSmileFill } from "react-icons/bs";
+import { AiFillStar } from "react-icons/ai";
+import { GrServices } from "react-icons/gr";
 
 const Counter = () => {
   return (
-    <section className='counter'>
-<div className="container">
-<div className="container-wrapper">
-    {
-        CounterData.map((item, index)=>(
-            <div className="counter-item" key={index}>
-            <h3 className="counter-number">{item.number}</h3> 
-            <h4 className="counter-title">{item.text}</h4>
-         </div>
-        ))
-    }
-  
-</div>
-</div>
-    </section>
+    <div class="counter-up">
+      <div class="content">
+        <div class="box">
+          <div class="icon">
+            <i>{BsFillEmojiSmileFill}</i>
+          </div>
+          <div class="counter">200+</div>
+          <div class="text">Running Projects</div>
+        </div>
+        <div class="box">
+          <div class="icon">
+            <i>{AiFillStar}</i>
+          </div>
+          <div class="counter">10+</div>
+          <div class="text">Years of Experience</div>
+        </div>
+        <div class="box">
+          <div class="icon">
+            <i>{GrServices}</i>
+          </div>
+          <div class="counter">10+</div>
+          <div class="text">Digital Services</div>
+        </div>
+      </div>
+    </div>
   );
-}
+};
 
 export default Counter;

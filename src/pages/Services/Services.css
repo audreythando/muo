@@ -25,6 +25,7 @@ img{
     float: left;
     border: 3px solid white;
     border-radius: 10px;
+    opacity: 0.5S;
 }
 
 
@@ -40,3 +41,8 @@ img{
  font-size: 16px;   
 }
 
+@media screen {
+    .wrapper{
+        width: 150px auto;
+    }
+}

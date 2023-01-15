@@ -17,10 +17,7 @@ export const links = [
         name: "Services",
         path: '/Services'
     },
-    {
-        name: "Blogs",
-        path: '/Blog'
-    },
+
 
     {
         name: "Contact",

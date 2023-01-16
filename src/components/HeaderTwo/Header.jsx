@@ -2,6 +2,7 @@ import React from "react";
 import "./Header.css";
 import Hero from "../../assets/earth.mp4";
 import { AiOutlineArrowRight } from "react-icons/ai";
+
 const Header = () => {
   return (
     <div className="hero">

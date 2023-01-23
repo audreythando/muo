@@ -6,7 +6,7 @@ import { BsLinkedin, BsTwitter } from "react-icons/bs";
 import "./Team.css";
 
 const teamMembers = [
-  {
+  { 
     img: avatarImage1,
     name: "Natasha Lama",
     position: "Senior Developer",

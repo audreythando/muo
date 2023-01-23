@@ -45,3 +45,13 @@
     border: 1px solid var(--primary-color-variant);
     color: var(--color-gray-100);
   }
+
+  @media (max-width : 480px) {
+    #video {
+        display: none;
+    }
+    body {
+        background: url('../../assets/eth.png');
+        background-size: cover;
+    }
+}

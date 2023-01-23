@@ -59,3 +59,14 @@
     text-align: center;
     
 }
+
+
+@media (max-width : 480px) {
+    #video {
+        display: none;
+    }
+    body {
+        background: url('../../assets/hero-image.png');
+        background-size: cover;
+    }
+}

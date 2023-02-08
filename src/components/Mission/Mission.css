@@ -91,11 +91,24 @@
         grid-template-columns: repeat(2, 1fr);
     }
 }
+
+
 @media screen and (max-width:600px) {
     .about .card-container {
-        grid-template-columns: 1fr;
+      grid-template-columns: 1fr;
     }
-}
+  }
+  
+
+@media screen and (max-width:940px) {
+    .about h2 {
+      font-size: 1.5rem;
+    }
+    .about p {
+      font-size: 1rem;
+    }
+  }
+  
 
 
 

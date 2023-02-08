@@ -54,4 +54,8 @@
         background: url('../../assets/eth.png');
         background-size: cover;
     }
+
+    .hero{
+        height: auto;
+    }
 }

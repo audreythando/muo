@@ -39,8 +39,7 @@ const Info = () => {
                 icon={<BsBullseye className="icon" />}
                 heading="Website Development"
                 text="At MUO, we professionally design, redesign and continuously support customer-facing 
-                and enterprise web apps to achieve 
-                high conversion and adoption rates"
+                and enterprise web apps."
               />
             </div>
 
@@ -50,8 +49,7 @@ const Info = () => {
                 heading="Software Testing(Manual & Automation)"
                 text=" MUO’s test
                  automation team to validates and re-validates the performance 
-                 of it's partners. The collaboration helped stabilize the store’s performance and ensure
-                  its full compliance with the performance requirements.
+                 of it's partners.
 
                 "
               />
@@ -68,9 +66,7 @@ const Info = () => {
               <AboutCard
                 icon={<GiLaurelsTrophy className="icon" />}
                 heading="IT Project Management"
-                text="Outline the scope of IT services you might need, and we’ll come up with a best-priced offer to ensure the stability and evolution of the required IT components and processes.
-
-                GET A MANAGED IT SERVICE OFFER"
+                text="Outline the scope of IT services , best-priced offer to ensure the stability and evolution of the required IT components and processes"
               />
             </div>
 
@@ -89,9 +85,7 @@ const Info = () => {
                 heading="IT Audit"
                 text="We help evaluate  an organization's information 
                 technology infrastructure, policies and operations.
-                 We determine whether IT controls protect corporate assets, 
-                 ensure data integrity and are 
-                aligned with the business's overall goals."
+"
               />
             </div>
 
@@ -99,9 +93,7 @@ const Info = () => {
               <AboutCard
                 icon={<GiLaurelsTrophy className="icon" />}
                 heading="Data analytics"
-                text="Data analytics implies building an infrastructure
-                 for data aggregation, analysis, and reporting. An experienced 
-                 provider of data analytics services, MUO delivers on simple and complex needs 
+                text=" MUO delivers on simple and complex needs 
                 with tailored business analytics solutions."
               />
             </div>

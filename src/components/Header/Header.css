@@ -69,4 +69,8 @@
         background: url('../../assets/hero-image.png');
         background-size: cover;
     }
+
+    .hero h2 {
+        font-size: 60px;
+      }
 }
